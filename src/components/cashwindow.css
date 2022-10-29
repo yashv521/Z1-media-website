@@ -1,0 +1,15 @@
+.cash-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /* grid-gap: 15px; */
+
+    justify-content: center;
+}
+
+.total-income, .total-expenses, .cash-on-hand, .net-profit-margin {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 10px;
+}
